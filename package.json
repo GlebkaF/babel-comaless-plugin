@@ -1,14 +1,16 @@
 {
-  "name": "babel-comaless-plugin",
+  "name": "comaless-webpack-loader",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
-  "author": "",
+  "author": "GlebkaF",
   "license": "ISC",
-  "dependencies": {
-    "babylon": "^6.16.1"
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
